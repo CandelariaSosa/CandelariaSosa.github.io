@@ -1,0 +1,18 @@
+.background-body {
+    background: linear-gradient(black, rgb(31, 30, 52));
+    min-height: 100vh;
+}
+
+.div1 {
+    min-height: 100vh;
+    background-image: url('../img/pc.png');
+}
+
+.div2{
+    height: 100%;
+}
+
+.hello {
+    font-size: 100px !important;
+    color: rgb(40, 39, 71);
+}
