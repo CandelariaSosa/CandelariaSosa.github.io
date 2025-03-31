@@ -3,7 +3,7 @@
     min-height: 100vh;
 }
 
-.div1, .div3 {
+.div1, .div3, .div4 {
     min-height: 100vh;
 }
 
@@ -16,13 +16,6 @@
     color: rgb(85, 85, 135);
 }
 
-/* .rotar-img {
-    transition: transform 1.5s ease;
-}
-
-.rotar-img:hover {
-    transform: rotate(360deg);
-} */
 
 .rotar-img{
     animation: grow 7s ease-in-out infinite;
@@ -39,3 +32,12 @@
       transform: scale(1); /* Vuelve al tamaño original */
     }
   }
+
+.quien-soy {
+    color: rgb(85, 85, 135);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imagenCV {
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%); 
+}
