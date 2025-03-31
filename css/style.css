@@ -41,3 +41,7 @@
 .imagenCV {
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%); 
 }
+
+.card-foot, .card-footer {
+    background-color: rgb(25, 25, 25) !important;
+}
