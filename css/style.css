@@ -3,9 +3,8 @@
     min-height: 100vh;
 }
 
-.div1 {
+.div1, .div3 {
     min-height: 100vh;
-    background-image: url('../img/pc.png');
 }
 
 .div2{
@@ -13,6 +12,30 @@
 }
 
 .hello {
-    font-size: 100px !important;
-    color: rgb(40, 39, 71);
+    font-size: 115px !important;
+    color: rgb(85, 85, 135);
 }
+
+/* .rotar-img {
+    transition: transform 1.5s ease;
+}
+
+.rotar-img:hover {
+    transform: rotate(360deg);
+} */
+
+.rotar-img{
+    animation: grow 7s ease-in-out infinite;
+}
+
+@keyframes grow {
+    0% {
+      transform: scale(1); /* Empieza en el tamaño original */
+    }
+    50% {
+      transform: scale(1.1); /* Agranda la imagen al 120% */
+    }
+    100% {
+      transform: scale(1); /* Vuelve al tamaño original */
+    }
+  }
