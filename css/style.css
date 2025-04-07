@@ -1,0 +1,52 @@
+.background-body {
+    background: linear-gradient(black, rgb(31, 30, 52));
+    min-height: 100vh;
+}
+
+.div1, .div3, .div4 {
+    min-height: 100vh;
+}
+
+.div2{
+    height: 100%;
+}
+
+.hello {
+    font-size: 115px !important;
+    color: rgb(85, 85, 135);
+}
+
+
+.rotar-img{
+    animation: grow 7s ease-in-out infinite;
+}
+
+@keyframes grow {
+    0% {
+      transform: scale(1); /* Empieza en el tamaño original */
+    }
+    50% {
+      transform: scale(1.1); /* Agranda la imagen al 120% */
+    }
+    100% {
+      transform: scale(1); /* Vuelve al tamaño original */
+    }
+  }
+
+.quien-soy {
+    color: rgb(85, 85, 135);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imagenCV {
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%); 
+}
+
+.card-foot, .card-footer {
+    background-color: rgb(25, 25, 25) !important;
+}
+/* 
+.card {
+  background-color: rgba(163, 157, 157, 0);
+  opacity: 0.4;
+} */

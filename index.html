@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -15,8 +17,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+<body class="background-body">
+
+    <nav class="navbar navbar-expand-lg" id="up" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><i class="bi bi-person-rolodex fs-2"></i></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -26,26 +29,135 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="bi bi-house"></i> Inicio</a>
+                        <a class="nav-link" href="#"><i class="bi bi-house"></i> INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="about_me.html"><i class="bi bi-person"></i> Quién soy</a>
+                        <a class="nav-link" href="studies.html"><i class="bi bi-journal-check"></i> FORMACIÓN
+                            ACADÉMICA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="studies.html"><i class="bi bi-journal-check"></i> Formación académica</a>
+                        <a class="nav-link" href="experience.html"><i class="bi bi-code-square"></i> EXPERIENCIA
+                            LABORAL</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="experience.html"><i class="bi bi-code-square"></i> Experiencia laboral</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tools.html"><i class="bi bi-nut"></i> Herramientas</a>
+                        <a class="nav-link" href="tools.html"><i class="bi bi-nut"></i> HERRAMIENTAS</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <h1>Inicio</h1>
+    <div class="row m-0 div1 d-flex align-items-center text-center justify-content-center">
+        <div class="col-5 div2">
+            <h1 class="hello fst-italic">¡Hola!</h1>
+            <h2 class="text-secondary">Soy Candelaria,</h2>
+            <h3 class="text-secondary">Full Stack Developer</h3>
+            <a href="https://wa.link/r560m0" class="btn btn-primary mt-5 fs-6">CONTACTAME</a>
+        </div>
+        <div class="col-6">
+            <img class="w-100 rotar-img" src="./img/compu.png" alt="">
+        </div>
+    </div>
+
+    <div class="row m-0 div3 d-flex align-items-center text-center justify-content-center">
+        <div class="col-10 p-0">
+            <p class="text-secondary fs-2 text-info-emphasis">
+                ____________________________________________________________________</p>
+            <p class="text-secondary fs-3 fst-italic"><i class="bi bi-quote mx-2 fs-1"></i> Soy Candelaria, Full Stack
+                Developer. Me apasiona crear soluciones digitales completas que faciliten la vida de las personas.
+                Como desarrolladora, trabajo tanto en el frontend como en el backend, construyendo aplicaciones
+                funcionales, intuitivas y eficientes. </p>
+            <p class="text-secondary fs-3 fst-italic">Me encanta enfrentar nuevos retos, optimizar procesos y ofrecer
+                experiencias que marquen la diferencia. Si tienes una idea o proyecto en mente, ¡estoy lista para
+                hacerlo realidad!</p>
+            <p class="text-secondary fs-2 text-info-emphasis">
+                ____________________________________________________________________</p>
+        </div>
+    </div>
+
+    <div class="div4">
+        <div class="d-flex justify-content-center mb-3">
+            <h2 class="quien-soy fs-1 fst-italic">¿Quién soy?</h2>
+        </div>
+        <div class="row m-0 d-flex align-items-center text-center justify-content-center">
+            <div class="col-5">
+                <img class="w-75 imagenCV" src="./img/fotoCV.png" alt="">
+            </div>
+            <div class="col-6">
+                <p class="text-secondary fs-4 fst-italic m-2">Soy Candelaria Sosa. Vivo en Chacabuco, provincia de
+                    Buenos
+                    Aires.
+                    Siempre me gustaron los desafíos, acertijos y encontrarle solución a las cosas, es por eso que hoy
+                    soy
+                    Profesora de Matemática. Más allá de ello, elijo seguir formandome y desafiándome, por eso en 2022
+                    hice
+                    un curso de programación, donde descubrí una nueva pasión que hoy continúa e imagino durará para
+                    siempre.
+                    Actualmente me encuentro cursando el tercer (y último) año de la carrera Análisis en Sistemas, con
+                    el deseo de
+                    poder dedicarme cien por ciento a este rubro.</p>
+                <div>
+                    <a href="https://wa.link/r560m0" class="mt-3 me-3 fs-2 text-light"><i
+                            class="bi bi-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/candelaria-sosa/" class="mt-3 fs-2 text-light"><i
+                            class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="div5 my-5">
+        <div class="d-flex justify-content-center mb-5">
+            <h2 class="quien-soy fs-1 fst-italic mb-5">Mis datos personales</h2>
+        </div>
+        <div class="card-group mt-5">
+            <div class="card d-flex align-items-center bg-transparent border-0">
+              <img src="./img/telefono.png" class="card-img-top w-25" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-secondary fst-italic text-center mt-4">Celular</h5>
+                <p class="card-text text-light-emphasis fs-5">2352 467768</p>
+              </div>
+            </div>
+            <div class="card d-flex align-items-center bg-transparent border-0">
+              <img src="./img/correo-electronico.png" class="card-img-top w-25" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-secondary fst-italic text-center mt-4">Email</h5>
+                <p class="card-text text-light-emphasis fs-5">sosacandelaria6@gmail.com</p>
+              </div>
+            </div>
+            <div class="card d-flex align-items-center bg-transparent border-0">
+              <img src="./img/ubicacion.png" class="card-img-top w-25" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-secondary fst-italic text-center mt-4">Ubicación</h5>
+                <p class="card-text text-light-emphasis fs-5">Chacabuco, Bs.As.</p>
+              </div>
+            </div>
+            <div class="card d-flex align-items-center bg-transparent border-0">
+                <img src="./img/calendario.png" class="card-img-top w-25" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-secondary fst-italic text-center mt-4">Fecha de nacimiento</h5>
+                  <p class="card-text text-light-emphasis fs-5">31/08/1996</p>
+                </div>
+              </div>
+          </div>
+    </div>
+
+    <footer class="card border-0 text-center text-light">
+        <div class="card-body card-foot">
+            <h5 class="card-title">CV web Candelaria Sosa </h5>
+            <p class="card-text">Desarrolladora Full Stack.</p>
+            <a href="https://www.instagram.com/candelariasosa_/" class="text-light fs-3 me-2"><i
+                    class="bi bi-instagram"></i></a>
+            <a href="https://wa.link/r560m0" class="text-light fs-3 mx-2"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/candelaria-sosa/" class="fs-3 ms-2 text-light"><i
+                class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="card-footer text-light d-flex justify-content-between">
+            <div></div>
+            <span>&copy Copyright 2025. Desarrollado por Candelaria Sosa.</span>
+            <div class="me-2 fs-5"><a href="#up" class="text-light"><i class="bi bi-hand-index"></i></a></div>
+        </div>
+    </footer>
 </body>
 
 </html>
