@@ -45,8 +45,21 @@
 .card-foot, .card-footer {
     background-color: rgb(25, 25, 25) !important;
 }
-/* 
-.card {
-  background-color: rgba(163, 157, 157, 0);
-  opacity: 0.4;
-} */
+
+@media (max-width: 500px) {
+    .hello {
+      font-size: 90px !important;
+    }
+    .p-responsive {
+        font-size: 19px !important;
+    }
+    .p-responsive2 {
+        font-size: 16px !important;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    .p-responsive2 {
+      font-size: 20px !important;
+    }
+}
