@@ -33,7 +33,7 @@
     }
   }
 
-.quien-soy {
+.quien-soy, .title-formacion, .title-experiencia, .title-proyectos {
     color: rgb(85, 85, 135);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -61,5 +61,23 @@
 @media (min-width: 767px) and (max-width: 1023px) {
     .p-responsive2 {
       font-size: 20px !important;
+    }
+}
+
+.card-experience {
+    box-shadow: 3px 3px 3px 0px;
+}
+
+@media (width <= 767px) {
+    h5 {
+        font-size: 16px !important;
+    }
+
+    .fontp {
+        font-size: 15px;
+    }
+
+    .card-experience {
+        width: 17rem !important;
     }
 }
