@@ -46,6 +46,15 @@
     background-color: rgb(25, 25, 25) !important;
 }
 
+.card-img-top:hover {
+    opacity: 100% !important;
+}
+
+.card-experience {
+    background-color: rgb(29, 28, 28) !important;
+    box-shadow: 4px 4px 10px 3px;
+}
+
 @media (max-width: 500px) {
     .hello {
       font-size: 90px !important;
@@ -62,10 +71,6 @@
     .p-responsive2 {
       font-size: 20px !important;
     }
-}
-
-.card-experience {
-    box-shadow: 3px 3px 3px 0px;
 }
 
 @media (width <= 767px) {
