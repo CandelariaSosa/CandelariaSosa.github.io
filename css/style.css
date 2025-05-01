@@ -39,7 +39,7 @@
 }
 
 .img-datos:hover {
-    width: 26% !important;
+    scale: 1.2 !important;
 }
 
 .imagenCV {
