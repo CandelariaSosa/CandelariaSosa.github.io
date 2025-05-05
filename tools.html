@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Herramientas</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -15,6 +13,10 @@
         crossorigin="anonymous"></script>
     <!-- Bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Swipers css -->
+    <link rel="stylesheet" href="./libs/swiperjs/css/swiper-bundle.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="background-body">
@@ -31,7 +33,8 @@
                         <a class="nav-link" href="index.html"><i class="bi bi-house"></i> INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="studies.html"><i class="bi bi-journal-check"></i> FORMACIÓN Y EXPERIENCIA</a>
+                        <a class="nav-link" href="studies.html"><i class="bi bi-journal-check"></i> FORMACIÓN Y
+                            EXPERIENCIA</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="bi bi-nut"></i> HERRAMIENTAS</a>
@@ -41,7 +44,44 @@
         </div>
     </nav>
 
-    <h1>Herramientas</h1>
+    <main>
+        <h2 class="text-center mt-5 fst-italic title-tools">Herramientas</h2>
+        <div class="div-tools d-flex align-items-center">
+            <div class="swiper" style="width: 90vw;">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="./img/herramientas/html.svg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/herramientas/css.svg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/herramientas/bootstrap.svg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/herramientas/python.svg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/herramientas/js.svg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/herramientas/mysql.svg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/herramientas/git.svg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/herramientas/github.svg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/herramientas/flask.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <footer class="card border-0 text-center text-light">
         <div class="card-body card-foot">
@@ -59,6 +99,11 @@
             <div class="me-2 fs-5"><a href="#up" class="text-light"><i class="bi bi-hand-index"></i></a></div>
         </div>
     </footer>
+
+    <!-- Swipers js -->
+    <script src="./libs/swiperjs/js/swiper-bundle.min.js"></script>
+    <script src="./js/tools.js"></script>
+
 </body>
 
 </html>
