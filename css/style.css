@@ -3,7 +3,7 @@
     min-height: 100vh;
 }
 
-.div1, .div3, .div4, .div-tools {
+.div1, .div3, .div4 {
     min-height: 100vh;
 }
 
@@ -13,7 +13,7 @@
 
 .hello {
     font-size: 115px !important;
-    color: rgb(85, 85, 135);
+    color: rgb(140, 123, 180);
 }
 
 
@@ -34,8 +34,8 @@
   }
 
 .quien-soy, .title-formacion, .title-experiencia, .title-proyectos, .title-tools {
-    color: rgb(85, 85, 135);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(140, 123, 180);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .img-datos:hover {
@@ -70,9 +70,28 @@
     margin: 0 auto;
 }
 
-@media (max-width: 500px) {
+
+@media (width >= 767px) {
+    .p-responsive2 {
+      font-size: 20px !important;
+    }
+    .quien-soy, .title-formacion, .title-experiencia, .title-proyectos {
+        font-size: 50px !important;
+    }
+    .title-tools {
+        font-size: 70px;
+        margin-top: 30px;
+        margin-bottom: 90px !important;
+    }
+    .tools-swiper {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+}
+
+@media (width <= 767px) {
     .hello {
-      font-size: 90px !important;
+        font-size: 90px !important;
     }
     .p-responsive {
         font-size: 19px !important;
@@ -80,25 +99,25 @@
     .p-responsive2 {
         font-size: 16px !important;
     }
-}
-
-@media (min-width: 767px) and (max-width: 1023px) {
-    .p-responsive2 {
-      font-size: 20px !important;
+    .quien-soy, .title-formacion, .title-experiencia, .title-proyectos, .title-tools {
+        font-size: 44px;
     }
-}
-
-@media (width <= 767px) {
     h5 {
         font-size: 16px !important;
     }
-
     .fontp {
         font-size: 15px;
     }
-
     .card-experience {
         width: 17rem !important;
+    }
+    .title-tools {
+        margin-top: 20px;
+        margin-bottom: 80px !important;
+    }
+    .tools-swiper {
+        margin-top: 130px;
+        margin-bottom: 130px;
     }
 }
 
