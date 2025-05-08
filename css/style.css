@@ -26,7 +26,7 @@
       transform: scale(1); /* Empieza en el tamaño original */
     }
     50% {
-      transform: scale(1.1); /* Agranda la imagen al 120% */
+      transform: scale(1.1); /* Agranda la imagen */
     }
     100% {
       transform: scale(1); /* Vuelve al tamaño original */
