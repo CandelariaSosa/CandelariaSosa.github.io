@@ -1,7 +1,20 @@
 const langToggle = document.getElementById('langToggle');
+// langToggle es el id del elemento del botón de idioma
+
+// Cargar idioma desde localStorage (si existe)
+function loadLanguage() {
+    const savedLang = localStorage.getItem('language');
+    if (savedLang === 'en') {
+        langToggle.checked = true;
+    } else {
+        langToggle.checked = false;
+    }
+    updateLanguage(); // Aplica el idioma
+}
 
 function updateLanguage() {
     const isEnglish = langToggle.checked;
+    localStorage.setItem('language', isEnglish ? 'en' : 'es');
     document.querySelectorAll('.nav-link').forEach(link => {
         const span = link.querySelector('.translatable');
         if (span) {
@@ -18,4 +31,4 @@ function updateLanguage() {
 langToggle.addEventListener('change', updateLanguage);
 
 // Al cargar la página, asegura el idioma correcto
-window.addEventListener('DOMContentLoaded', updateLanguage);
+window.addEventListener('DOMContentLoaded', loadLanguage);
