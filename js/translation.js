@@ -5,6 +5,7 @@ const langToggle = document.getElementById('langToggle');
 // Para traducir el resto de la pág ----------------------------------------
 const translations = {
   es: {
+    // Index
     greeting: "¡Hola!",
     name: "Soy Candelaria,",
     role: "Desarrolladora Full Stack",
@@ -20,8 +21,22 @@ const translations = {
     footer1: "CV web Candelaria Sosa",
     footer2: "Desarrolladora Full Stack",
     footer3: "&copy Copyright 2025. Desarrollado por Candelaria Sosa.",
+    // studies
+    formation: "Formación académica",
+    f1: "Tecnicatura en análisis de sistemas",
+    f2: "Marzo 2023-actualidad",
+    f3: "Instituto Superior de Formación Técnica N° 132.",
+    f4: "Chacabuco, Buenos Aires.",
+    f5: "Curso de Programación Web Full Stack",
+    f6: "Agosto 2022 - Febrero 2023",
+    f7: "Programá Desde Tu Casa.",
+    f8: "Profesorado de Matemática",
+    f9: "Egreso Mayo 2022",
+    f10: "Instituto Superior de Formación Docente N° 131.",
+    // tools
   },
   en: {
+    // index
     greeting: "Hi!",
     name: "I'm Candelaria,",
     role: "Full Stack Developer",
@@ -38,6 +53,19 @@ const translations = {
     footer1: "Web CV Candelaria Sosa",
     footer2: "Full Stack Developer",
     footer3: "&copy Copyright 2025. Developed by Candelaria Sosa.",
+    // study
+    formation: "Academic training",
+    f1: "Technician in systems analysis",
+    f2: "March 2023-present",
+    f3: "Higher Institute of Technical Training N° 132.",
+    f4: "Chacabuco, Buenos Aires.",
+    f5: "Full Stack Web Programming Course",
+    f6: "August 2022 - February 2023",
+    f7: "Program From Your Home.",
+    f8: "Mathematics Teaching Staff",
+    f9: "Graduation May 2022",
+    f10: "Higher Institute of Teacher Training N° 131.",
+    // tools
   }
 };
 
