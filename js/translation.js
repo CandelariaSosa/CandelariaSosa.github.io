@@ -21,7 +21,7 @@ const translations = {
     footer1: "CV web Candelaria Sosa",
     footer2: "Desarrolladora Full Stack",
     footer3: "&copy Copyright 2025. Desarrollado por Candelaria Sosa.",
-    // studies
+    // studies - formacion academica
     formation: "Formación académica",
     f1: "Tecnicatura en análisis de sistemas",
     f2: "Marzo 2023-actualidad",
@@ -33,6 +33,35 @@ const translations = {
     f8: "Profesorado de Matemática",
     f9: "Egreso Mayo 2022",
     f10: "Instituto Superior de Formación Docente N° 131.",
+    // study - experiencia
+    e1: "Experiencia laboral",
+    e2: "Pasante de Programación",
+    e3: "Septiembre 2024 - Octubre 2024",
+    e4: "Arweb Studio | remoto",
+    e5: "Manejo de datos obtenidos de una API (websocket) utilizando Python.",
+    e6: "Profesora de NTICx",
+    e7: "Abril 2024 - Actualidad",
+    e8: "Escuela de Educación Secundaria N° 9.",
+    e9: "Profesora de Matemática",
+    e10: "Noviembre 2024 - Actualidad",
+    e11: "Escuela de Educación Secundaria Técnica N° 1.",
+    e12: "Profesora de Matemática",
+    e13: "Octubre 2023 - Noviembre 2024",
+    e14: "Escuela de Educación Secundaria N° 4.",
+    // study - proyectos
+    project1: "Algunos de mis proyectos",
+    project2: "Gimnasio",
+    project3: "Trabajo realizado con Bootstrap, Python, Flask y SQL.<br> Ingresar con: <br> ususario: administrador <br> contraseña: 12345",
+    project4: "Ir al sitio",
+    project5: "Tareas",
+    project6: "Trabajo realizado con Bootstrap y JavaScript. <br> Sirve para cargar y eliminar tareas con distintos niveles de prioridad.",
+    project7: "Productos",
+    project8: "Trabajo realizado con Bootstrap y JavaScript. <br> Sirve para cargar y eliminar productos.",
+    project9: "API clima",
+    project10: "Trabajo realizado con Bootstrap y JavaScript. <br> Sirve para conocer el clima en tiempo real de un lugar consumiendo una API.",
+    project11: "Filtrar autos",
+    project12: "Trabajo realizado con Bootstrap y JavaScript. <br> Sirve para filtrar autos por su marca.",
+    
     // tools
   },
   en: {
@@ -53,7 +82,7 @@ const translations = {
     footer1: "Web CV Candelaria Sosa",
     footer2: "Full Stack Developer",
     footer3: "&copy Copyright 2025. Developed by Candelaria Sosa.",
-    // study
+    // study - formacion academica
     formation: "Academic training",
     f1: "Technician in systems analysis",
     f2: "March 2023-present",
@@ -65,6 +94,34 @@ const translations = {
     f8: "Mathematics Teaching Staff",
     f9: "Graduation May 2022",
     f10: "Higher Institute of Teacher Training N° 131.",
+    // study - experience
+    e1: "Work Experience",
+    e2: "Programming Intern",
+    e3: "September 2024 - October 2024",
+    e4: "Arweb Studio | remote",
+    e5: "Handled data obtained from an API (websocket) using Python.",
+    e6: "NTICx Teacher",
+    e7: "April 2024 - Present",
+    e8: "Secondary School N° 9",
+    e9: "Mathematics Teacher",
+    e10: "November 2024 - Present",
+    e11: "Technical Secondary School N° 1",
+    e12: "Mathematics Teacher",
+    e13: "October 2023 - November 2024",
+    e14: "Secondary School N° 4",
+    // study - projects
+    project1: "Some of my projects",
+    project2: "Gym",
+    project3: "Work done using Bootstrap, Python, Flask, and SQL.<br> Log in with: <br> user: administrador <br> password: 12345",
+    project4: "Go to site",
+    project5: "Tasks",
+    project6: "Work done using Bootstrap and JavaScript. <br> Allows adding and deleting tasks with     different priority levels.",
+    project7: "Products",
+    project8: "Work done using Bootstrap and JavaScript. <br> Allows adding and deleting products.",
+    project9: "Weather API",
+    project10: "Work done using Bootstrap and JavaScript. <br> Allows checking the real-time weather of a location by consuming an API.",
+    project11: "Filter cars",
+    project12: "Work done using Bootstrap and JavaScript. <br> Allows filtering cars by brand.",
     // tools
   }
 };
