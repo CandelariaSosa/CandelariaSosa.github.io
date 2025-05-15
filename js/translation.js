@@ -61,8 +61,8 @@ const translations = {
     project10: "Trabajo realizado con Bootstrap y JavaScript. <br> Sirve para conocer el clima en tiempo real de un lugar consumiendo una API.",
     project11: "Filtrar autos",
     project12: "Trabajo realizado con Bootstrap y JavaScript. <br> Sirve para filtrar autos por su marca.",
-    
     // tools
+    tools: "Herramientas y Lenguajes",
   },
   en: {
     // index
@@ -123,6 +123,7 @@ const translations = {
     project11: "Filter cars",
     project12: "Work done using Bootstrap and JavaScript. <br> Allows filtering cars by brand.",
     // tools
+    tools: "Tools and Languages",
   }
 };
 
