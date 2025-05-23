@@ -18,6 +18,12 @@
     font-style: normal;
 }
 
+.text-degrade {
+    background: linear-gradient(94deg,#0090F7, #BA62FC, #41f2e3, #8debcd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 .rotar-img{
     animation: grow 7s ease-in-out infinite;
@@ -89,6 +95,9 @@
     .tools-swiper {
         margin-top: 150px;
         margin-bottom: 150px;
+    }
+    .card-img-top-w {
+        width: 36% !important;
     }
 }
 
