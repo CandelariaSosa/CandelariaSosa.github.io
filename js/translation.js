@@ -13,6 +13,7 @@ const translations = {
     p1: "Soy Candelaria, Desarrolladora Full Stack. Me apasiona crear soluciones digitales completas que faciliten la vida de las personas. Como desarrolladora, trabajo tanto en el frontend como en el backend, construyendo aplicaciones funcionales, intuitivas y eficientes. <br> Me encanta enfrentar nuevos retos, optimizar procesos y ofrecer experiencias que marquen la diferencia. Si tenes una idea o proyecto en mente, ¡estoy lista para hacerlo realidad!",
     aboutMe: "Sobre mí",
     p2: "Soy Candelaria Sosa, vivo en Chacabuco, provincia de Buenos Aires. Siempre me atrajeron los desafíos y la resolución de problemas, lo que me llevó a ser Profesora de Matemática. En 2022 descubrí mi pasión por la programación, y desde entonces sigo formándome. Actualmente curso el último año de Análisis de Sistemas, con el objetivo de dedicarme por completo al mundo del software y la tecnología.",
+    cv: "DESCARGAR CV",
     personalData: "Mis datos personales",
     cel: "Celular",
     email: "Email",
