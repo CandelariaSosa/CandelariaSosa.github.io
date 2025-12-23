@@ -24,7 +24,7 @@ const translations = {
     // studies - formacion academica
     formation: "Formación académica",
     f1: "Tecnicatura en análisis de sistemas",
-    f2: "Marzo 2023-actualidad",
+    f2: "Egreso Diciembre 2025",
     f3: "Instituto Superior de Formación Técnica N° 132.",
     f4: "Chacabuco, Buenos Aires.",
     f5: "Curso de Programación Web Full Stack",
@@ -84,7 +84,7 @@ const translations = {
     // study - formacion academica
     formation: "Academic training",
     f1: "Technician in systems analysis",
-    f2: "March 2023-present",
+    f2: "Graduation December 2025",
     f3: "Higher Institute of Technical Training N° 132.",
     f4: "Chacabuco, Buenos Aires.",
     f5: "Full Stack Web Programming Course",
