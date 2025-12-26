@@ -23,7 +23,7 @@ const translations = {
     footer3: "&copy 2025. Desarrollado por Candelaria Sosa.",
     // studies - formacion academica
     formation: "Formación académica",
-    f1: "Tecnicatura en análisis de sistemas",
+    f1: "Tecnicatura en Análisis de Sistemas",
     f2: "Egreso Diciembre 2025",
     f3: "Instituto Superior de Formación Técnica N° 132.",
     f4: "Chacabuco, Buenos Aires.",
@@ -83,7 +83,7 @@ const translations = {
     footer3: "&copy 2025. Developed by Candelaria Sosa.",
     // study - formacion academica
     formation: "Academic training",
-    f1: "Technician in systems analysis",
+    f1: "Technician in Systems Analysis",
     f2: "Graduation December 2025",
     f3: "Higher Institute of Technical Training N° 132.",
     f4: "Chacabuco, Buenos Aires.",
